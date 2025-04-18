@@ -24,7 +24,7 @@
     },
     'support':'sanskarsija59@gmail.com',
     'images':[
-    'static/description/icon.png',    
+     'static/description/thumbnail.png',  
     ],
     'license': 'LGPL-3',
 }
