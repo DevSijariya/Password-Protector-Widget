@@ -1,0 +1,16 @@
+.password-container{
+    display:flex;
+}
+.password-container button{
+    background-color: transparent;
+    border:none;
+}
+.password-container i{
+    margin-left: -28px;
+    margin-top: -8px;
+    color:#714b67;
+    position: absolute;
+}
+.form-control{
+    width:97%;
+}

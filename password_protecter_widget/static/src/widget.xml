@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    <t t-name="password.protector">
+        <div role="password_hide" >
+        <div class="password-container" style="display:flex;">
+            <input 
+                t-att-type="state.type" 
+                t-model="props.record.data[props.name]" 
+                t-on-input="onInput"
+                placeholder="Enter Password" 
+                style="border:none;width:80%;"
+            />
+            <button t-on-click="onShow" style="width:20%;background:Transparent;border:none;color:#71639e; font-size:20px;">
+                <t t-if="state.type === 'password'"> <i class="fa fa-eye" ></i></t>
+                <t t-else=""><i class="fa fa-eye-slash" ></i></t>
+            </button>
+        </div>
+        </div>
+    </t>
+</templates>
+
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+<template id="homepage_login_id" inherit_id="web.login" name="login">
+    <data>
+        <xpath expr="//input[@id='password']" position="replace">
+
+            <input type="password" t-options="{'widget': 'password_hide'}" placeholder=" Enter Password" name="password" id="password" class="form-control" required="required" autocomplete="current-password" t-att-autofocus="'autofocus' if login else None" maxlength="4096"/>
+
+        </xpath>
+    </data>
+</template>
+</odoo>
