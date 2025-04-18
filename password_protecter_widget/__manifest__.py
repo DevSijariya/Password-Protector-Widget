@@ -23,6 +23,8 @@
         ]
     },
     'support':'sanskarsija59@gmail.com',
-    'icon':'/password_protecter_widget/static/description/icon.png',
+    'images':[
+    'static/description/icon.png',    
+    ],
     'license': 'LGPL-3',
 }
